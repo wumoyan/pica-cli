@@ -231,7 +231,7 @@ async function main() {
                     await pica.download(pic.url, {
                         title: title,
                         epTitle: pic.epTitle,
-                        picName: pic.name
+                        picName: pic.name.png
                     })
                     return bar.tick()
                 })
